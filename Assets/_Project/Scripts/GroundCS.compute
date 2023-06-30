@@ -1,0 +1,27 @@
+#pragma kernel Update
+#pragma kernel Clear
+
+RWTexture2D<float> Result;
+float2 emitter;
+float emitterRadius;
+float emitterFade;
+float rate;
+
+[numthreads(8,8,1)]
+void Update(uint3 id : SV_DispatchThreadID)
+{
+    float2 pos = id.xy;
+    float val = Result[id.xy];
+    val = saturate(val - rate);
+	float emitterValue = 1 - saturate((distance(emitter, pos) - emitterRadius) * emitterFade);
+
+    val = max(val, emitterValue);
+
+    Result[id.xy] = val;
+}
+
+[numthreads(8, 8, 1)]
+void Clear(uint3 id : SV_DispatchThreadID)
+{
+	Result[id.xy] = 0;
+}

@@ -1,0 +1,194 @@
+﻿main_menu.play::					Play
+main_menu.customize::				Customize
+main_menu.settings::				Settings
+main_menu.exit::					Leave right now...
+
+chat.title::						Chat
+chat.send::							Send
+chat.placeholder::					message hehe
+chat.system::						System
+chat.unknown::						Unknown
+
+debug.title::						Debug
+debug.send::						Send
+debug.placeholder::					Command
+debug.system::						System
+debug.unknown::						Unknown
+
+lobby_choice.title::				Lobby
+lobby_choice.username::				Username:
+lobby_choice.placeholder::			just a little guy
+lobby_choice.join::					Join a lobby
+lobby_choice.create::				Create a lobby
+
+lobby_join.title::					Join a lobby
+lobby_join.code::					Lobby code:
+lobby_join.placeholder::			enter lobby code here
+lobby_join.join::					Join Lobby
+
+lobby.title_host::					Hosting a lobby
+lobby.title_joined::				In a lobby
+lobby.player_more::					More
+lobby.ruleset::						Ruleset
+lobby.ready::						Ready
+lobby.unready::						Unready
+lobby.chat::						Chat
+lobby.close::						Close
+lobby.info_creating::				Creating a lobby...
+lobby.info_joining::				Joining a lobby...
+lobby.failed_creating::				Failed to create lobby
+lobby.failed_joining::				Failed to join lobby
+lobby.disconnected::				Disconnected from lobby
+lobby.code::						Lobby code:
+lobby.show::						Show
+lobby.copy::						Copy
+lobby.countdown::					Starting in 
+lobby.starting::					Starting... 
+
+
+message.come_back::					Come back later, WIP.
+
+
+option.high::						High
+option.medium::						Medium
+option.low::						Low
+option.legacy::						Legacy
+option.off::						Off
+option.missing::					Missing
+option.default::					Default
+
+
+settings.title::					Settings
+settings.apply::					Apply
+settings.apply_and_save::			Apply and Save
+settings.category.general::			General
+settings.category.performance::		Performance
+settings.category.controls::		Controls
+settings.category.audio::			Audio
+
+
+settings.label.window_options::		<u>W</u>indow Options
+settings.max_framerate::			Max framerate:
+desc.max_framerate::				Limits how many frames will be displayed per second.
+fps.30::							30
+fps.45::							45
+fps.60::							60
+fps.72::							72
+fps.120::							120
+fps.144::							144
+fps.240::							240
+fps.unlimited::						Unlimited
+
+settings.window_mode::				Window mode:
+desc.window_mode::					Changes how the game will be displayed on apply and when the game is lauched.
+window_mode.windowed::				Windowed
+window_mode.fullscreenWindow::		Fullscreen Window 
+window_mode.fullscreen::			Fullscreen
+
+settings.resolution::				Resolution
+desc.resolution::					Changes the resolution of the window on apply and when the game is lauched.
+settings.screen_switch::			Target screen:
+desc.screen_swtich::				Changes the target screen of the window on apply and when the game is lauched.
+settings.apply_window::				Apply window settings
+desc.apply_window::					Applies the window setting instantly.
+
+
+settings.label.general_options::	<u>G</u>eneral Options
+settings.ui_scale::					UI Scale:
+desc.ui_scale::						Control how much the UI is zoomed in or zoomed out. 
+settings.enable_v_sync::			VSync:
+desc.enable_v_sync::				Synchronizes screen update to avoid vertical screen tearing. May affect framerate slightly.
+settings.show_fps::					Show FPS:
+desc.show_fps::						Enables the FPS display in game.
+settings.show_ping::				Show Ping:
+desc.show_ping::					Enables the Ping display in game.
+settings.screen_shake::				Screen shake:
+desc.screen_shake::					Control how strong the screen shake is when an explosion occures.
+settings.enable_custom_content::	Enable custom content:
+desc.enable_custom_content::		If custom content is disabled, custom made maps and custom player names won't be seen.
+
+
+settings.general_graphic_options::	General option:
+settings.find_best_options::		Find best option
+settings.terrain_quality::			Terrain Quality:
+desc.terrain_quality::				Low quality terrain lowers slightly removes the maximum level of detail.
+settings.water_quality::			Water Quality:
+desc.water_quality::				High: Enables reflection, water refraction and the high quality mesh. Medium: Transparent water and lower quality mesh. Low: Opaque water and flat mesh.
+settings.background_quality::		Background Quality:
+desc.background_quality::			[Todo]
+settings.shadows_quality::			Shadows Quality:
+desc.shadows_quality::				Controls the quality of the shadows. Turning shadows off improves the performance greatly.
+settings.bloom_quality::			Bloom Quality:
+desc.bloom_quality::				Makes bright thing glow. Turn off for a slight gain in performance.
+settings.depth_of_field_quality::	Depth Of Field Quality:
+desc.depth_of_field_quality::		[Todo]
+settings.aa_quality::				Antialiasing Quality:
+desc.aa_quality::					Improves the look of the edge of the geometry. Turn off for a small performance gain.
+settings.render_scale::				Render Scale:
+desc.render_scale::					Reduces the resolution. Avoid changing unless the game runs very poorly.
+settings.details::					Detail Quality:
+
+settings.label.controls::			Controls
+settings.controls::					Controls
+settings.mouse_sensibility::		Mouse Sensibility:
+settings.laptop_mode::				Laptop Mode:
+
+settings.music_volume::				Music Volume:
+desc.music_volume::					NOOO PLEASE DON'T TURN OFF THE BEATIFUL MUSIC NOOOO
+settings.sfx_volume::				Sound Effect Volume:
+desc.sfx_volume::					NOOOOO THE BEATIFUL SOUND EFFECTS DON'T TURN IT DOWN
+settings.player_screech_volume::	Player Screech Volume:
+desc.player_screech_volume::		Makes the OHOHAHAH go ohohahah.
+settings.mute_sound_minimized::		Mute Sound Minimized:
+desc.mute_sound_minimized::			Sounds won't be playing when the game window isn't focused. Alerts will still play.
+settings.sound_on_join::			Alert when someone joins the lobby:
+desc.sound_on_join::				Plays a sound when someone joins the lobby.
+settings.sound_on_start::			Alert when the match starts:
+desc.sound_on_start::				Plays a sound when the match lobby.
+
+annoucements.your_turn::			It's your turn!
+annoucements.times_up::				Time's up!
+annoucements.is_playing::			$player is playing
+annoucements.is_out::				$player is out!
+annoucements.you_won::				You won!
+annoucements.you_lost::				You lost!
+annoucements.crate::				We sent you a crate. You better not miss it!
+annoucements.head::					Yarr I need some head.          (But for real tho)
+
+item_craft.buy::					Buy
+item_craft.upgrades::				UPGRADES
+item_craft.micro_chips::			Micro Chips
+item_craft.scraps::					Scraps
+item_craft.gun_powder::				Gun Powder
+item_craft.plungers::				Plungers
+
+item.barrel::						Super Barrel
+desc.barrel::						The barrel rotates in 3 locked direction. Hit $key to fire the barrel and spin around carelessly.
+item.trumpet::						Trumpet
+desc.trumpet::						Nudge a friend in the right direction with the power of music.
+item.coconut::						Coconut
+desc.coconut::						Throw it.
+item.blowdart::						Blowdart
+desc.blowdart::						Shoot an explosive dart in any direction.
+item.grappler_hook::				Grappler Hook
+desc.grappler_hook::				Shoot a hook that will let you climb ledge and swing around.
+item.drone::						Drone
+desc.drone::						A useless drone. Pair it with an ability to make it do something.
+item.drilling_drone::				Drilling Drone
+desc.drilling_drone::				A drone that lets you drill for a few seconds.
+item.drill_launcher::				Drill Launcher
+desc.drill_launcher::				Launch a drill projectile that carves the ground in its path.
+item.earth_splitter::				Earth Splitter
+desc.earth_splitter::				Unleash a devastating slice that splits the earth in half
+item.grappler_drone::				Grappler Drone
+desc.grappler_drone::				A drone that lets you pick up nearby item and bring them back to you.
+item.health_kit::					Health kit
+desc.health_kit::					Heals the character that's holding it once used.
+item.portable_drill::				Portable Drill
+desc.portable_drill::				A drill that you can use around you
+item.revive_kit::					Revive kit
+desc.revive_kit::					Revives any character that died on land with a few points of health.
+item.seismic_emitter::				Seismic Emitter
+desc.seismic_emitter::				Unleash powerful seismic wave at any area on the island that 
+item.sligner::						Sligner
+desc.sligner::						Build a sligner next to you that allows you to launch yourself in any direction
